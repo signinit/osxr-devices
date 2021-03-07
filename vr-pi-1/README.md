@@ -2,6 +2,8 @@
 
 PoC device using RPI (3/4)
 
+![Result Image](images/result-image.jpg)
+
 ## Build Items
 
 * Raspberry PI 3 B+ (should support higher versions - not tested)
