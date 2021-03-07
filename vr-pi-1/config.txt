@@ -1,0 +1,38 @@
+### /boot/config.txt ###
+
+disable_overscan=1
+
+gpu_mem=256
+
+hdmi_cvt=480 800 60 6
+hdmi_group=2
+hdmi_mode=87
+hdmi_drive=1
+
+hdmi_edid_file=1
+hdmi_force_edid_3d=1
+avoid_warnings=2
+
+#display_rotate=1
+#display_hdmi_rotate=1
+
+disable_fw_kms_setup=1
+
+# Uncomment some or all of these to enable the optional hardware interfaces
+#dtparam=i2c_arm=on
+#dtparam=i2s=on
+dtparam=spi=on
+#dtoverlay=ads7846,penirq=25,speed=10000,penirq_pull=2,xohms=150
+
+# Uncomment this to enable the lirc-rpi module
+#dtoverlay=lirc-rpi
+
+# Additional overlays and parameters are documented /boot/overlays/README
+
+# Enable audio (loads snd_bcm2835)
+dtparam=audio=on
+
+[all]
+dtoverlay=vc4-kms-v3d
+#dtoverlay=ads7846,penirq=25,speed=10000,penirq_pull=2,xohms=150
+#dtoverlay=vc4-fkms-v3d
