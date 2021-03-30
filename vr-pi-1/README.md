@@ -14,7 +14,7 @@ PoC device using RPI (3/4)
 
 ## 3D Printing Parts
 
-* [Lens Brachet](lens-bracket-v1.stl)
+* [Lens Bracket](lens-bracket-v1.stl)
 * 2x [Side Bracket](side-brackets-v2.stl) (1x mirrored)
 
 ## RPI Setup Instructions (not tested)
